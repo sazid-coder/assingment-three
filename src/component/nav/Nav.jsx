@@ -1,11 +1,36 @@
 import React from 'react';
-import { Link } from 'react-router';
+import { NavLink } from 'react-router';
+import logo from '../../assets/logo.png'
 
 const Nav = () => {
 
     const navLink = <>
-        <Link to='/'><li className='mr-4'>Home</li></Link>
-        <Link to='/apps'><li className='mr-4'>Apps</li></Link>
+        <NavLink
+            to="/"
+            className={({ isActive }) =>
+                `mr-4 ${isActive ? "text-[#632EE3] font-semibold" : "text-gray-600"}`
+            }
+        >
+            <li>Home</li>
+        </NavLink>
+
+        <NavLink
+            to="/apps"
+            className={({ isActive }) =>
+                `mr-4 ${isActive ? "text-[#632EE3] font-semibold" : "text-gray-600"}`
+            }
+        >
+            <li>Apps</li>
+        </NavLink>
+
+        <NavLink
+            to="/installed"
+            className={({ isActive }) =>
+                `mr-4 ${isActive ? "text-[#632EE3] font-semibold" : "text-gray-600"}`
+            }
+        >
+            <li>Installed</li>
+        </NavLink>
     </>
     return (
         <div>
@@ -23,7 +48,7 @@ const Nav = () => {
                             }
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">daisyUI</a>
+                    <img src={logo} alt="" />
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
@@ -31,7 +56,7 @@ const Nav = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn">Button</a>
+                    <a className="btn cursor-pointer bg-linear-to-r from-[#632EE3] to-[#9F62F2]">Contribute</a>
                 </div>
             </div>
         </div>

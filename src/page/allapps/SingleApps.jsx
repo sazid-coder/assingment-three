@@ -1,25 +1,53 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import Progress from '../../component/progress/Progress';
+import { toast } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const SingleApps = () => {
+
     const { appid } = useParams();
     const appinINT = parseInt(appid);
-    const appDetails = useLoaderData();
-    const singleappData = appDetails.find(apps => apps.id === appinINT);
-    console.log(singleappData);
 
-    const { title, image, companyName, downloads, ratingAvg, reviews, size, ratings } = singleappData;
+    const appDetails = useLoaderData();
+
+    const singleappData = appDetails.find(apps => apps.id === appinINT);
+
+    const { id, title, image, companyName, downloads, ratingAvg, reviews, size, ratings, description } = singleappData;
+
+    // 🔥 state
+    const [storedIds, setStoredIds] = useState(
+        JSON.parse(localStorage.getItem("appIds")) || []
+    );
+
+    // install function
+    const addtoLocal = (id) => {
+        if (!storedIds.includes(id)) {
+            const updated = [...storedIds, id];
+
+            localStorage.setItem("appIds", JSON.stringify(updated));
+            setStoredIds(updated); // 🔥 fix
+
+            toast.success("App Installed Successfully ✅");
+        } else {
+            toast.info("Already Installed ⚡");
+        }
+    };
+
+    // check installed
+    const isInstalled = storedIds.includes(id);
     return (
         <div className='bg-white'>
+            <ToastContainer />
 
             <div className="max-w-5xl mx-auto p-4 md:p-10 font-sans text-slate-900">
 
                 <div className="flex flex-col md:flex-row gap-8 items-start">
 
                     {/* App Icon Container */}
-                    <div className="relative group flex-shrink-0">
-                        <div className="w-44 h-44 bg-white rounded-[2rem] shadow-[0_20px_50px_rgba(0,0,0,0.1)] border border-gray-50 flex items-center justify-center p-6 transition-transform hover:scale-[1.02]">
+                    <div className="relative group shrink-0">
+                        <div className="w-44 h-44 bg-white rounded-4xl shadow-[0_20px_50px_rgba(0,0,0,0.1)] border border-gray-50 flex items-center justify-center p-6 transition-transform hover:scale-[1.02]">
                             <img src={image} alt={title} />
                         </div>
                     </div>
@@ -36,7 +64,7 @@ const SingleApps = () => {
                         </div>
 
                         {/* Divider */}
-                        <div className="w-full h-[1px] bg-gray-100 my-6"></div>
+                        <div className="w-full h-px bg-gray-100 my-6"></div>
 
                         {/* Stats Section */}
                         <div className="flex items-center gap-12 mb-10">
@@ -69,9 +97,18 @@ const SingleApps = () => {
                         </div>
 
                         {/* CTA Button */}
-                        <button className="bg-[#66d19e] hover:bg-[#58b98b] text-white px-12 py-4 rounded-xl font-bold text-lg shadow-[0_10px_20px_rgba(102,209,158,0.3)] transition-all active:scale-95">
-                            Install Now ({size})
+                        <button
+                            onClick={() => addtoLocal(id)}
+                            disabled={isInstalled}
+                            className={`px-12 py-4 rounded-xl font-bold text-lg transition-all
+    ${isInstalled
+                                    ? "bg-gray-400 cursor-not-allowed"
+                                    : "bg-[#66d19e] hover:bg-[#58b98b] text-white shadow-[0_10px_20px_rgba(102,209,158,0.3)] active:scale-95"
+                                }`}
+                        >
+                            {isInstalled ? "Installed" : `Install Now (${size})`}
                         </button>
+
                     </div>
                 </div>
 
@@ -79,6 +116,11 @@ const SingleApps = () => {
                 <div className="border-t border-gray-200 my-12"></div>
 
                 <Progress ratings={ratings}></Progress>
+
+                <div className='py-16'>
+                    <h2 className='bold text-4xl mb-10'>Description</h2>
+                    <p>{description}</p>
+                </div>
             </div>
         </div>
     );

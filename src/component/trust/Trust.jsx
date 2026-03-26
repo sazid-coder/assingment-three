@@ -2,7 +2,7 @@ import React from 'react';
 
 const Trust = () => {
     return (
-        <div className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] py-16'>
+        <div className='bg-linear-to-r from-[#632EE3] to-[#9F62F2] py-16'>
             <div>
                 <h2 className='text-4xl text-center font-bold'>Trusted by Millions, Built for You</h2>
             </div>
