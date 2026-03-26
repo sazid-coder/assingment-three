@@ -12,18 +12,26 @@ export const router = createBrowserRouter([
         children: [
             {
                 index: true,
-                loader: () => fetch('data.json'),
-                path: "/",
+                loader: async () => {
+                    const res = await fetch('/data.json');
+                    return res.json();
+                },
                 Component: Home,
             },
             {
-                loader: () => fetch('data.json'),
                 path: "apps",
+                loader: async () => {
+                    const res = await fetch('/data.json');
+                    return res.json();
+                },
                 Component: AllApps
             },
             {
                 path: 'apps/:appid',
-                loader: () => fetch('data.json'),
+                loader: async () => {
+                    const res = await fetch('/data.json');
+                    return res.json();
+                },
                 Component: SingleApps,
             }
         ],

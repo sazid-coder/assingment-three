@@ -4,7 +4,7 @@
         "title": "Mindful Moments",
         "companyName": "Zen Studios",
         "id": 1,
-        "description": "Daily guided meditation and mindfulness exercises for stress relief and better sleep.",
+        "description": "Mindful Moments is your personal sanctuary for mental well-being. This comprehensive wellness platform offers a vast library of daily guided meditations, deep-breathing exercises, and nature-inspired soundscapes designed to reduce cortisol levels and alleviate anxiety. Whether you are a beginner looking to understand the basics of mindfulness or an advanced practitioner seeking to deepen your Zen, our curated sessions help you achieve better sleep, sharper focus, and a more balanced emotional state in just ten minutes a day.",
         "size": 185,
         "reviews": 28470,
         "ratingAvg": 4.8,
@@ -37,7 +37,7 @@
         "title": "FitFlow",
         "companyName": "HealthTech Inc",
         "id": 2,
-        "description": "Personalized workout plans and nutrition tracking for all fitness levels.",
+        "description": "Transform your living room into a world-class gym with FitFlow. Our AI-driven engine creates hyper-personalized workout plans that adapt to your progress, equipment availability, and physical goals. From high-intensity interval training (HIIT) and strength building to restorative yoga and mobility drills, FitFlow covers every aspect of physical health. The app also features a robust nutrition tracker with a global database of over 2 million foods, ensuring your diet aligns perfectly with your fitness journey for maximum results.",
         "size": 312,
         "reviews": 15230,
         "ratingAvg": 4.6,
@@ -70,7 +70,7 @@
         "title": "BudgetWise",
         "companyName": "FinCore Solutions",
         "id": 3,
-        "description": "Smart budgeting tool that tracks expenses and helps achieve financial goals.",
+        "description": "Take full command of your financial future with BudgetWise, the ultimate smart budgeting companion. By securely syncing with your bank accounts, BudgetWise categorizes every transaction in real-time, providing you with a crystal-clear picture of your spending habits. Set custom savings goals, receive bill payment alerts, and utilize our 'Rainy Day' forecasting tool to see where you'll be financially in six months. It’s not just a tracker; it’s a financial advisor in your pocket that helps you cut unnecessary costs and grow your net worth.",
         "size": 98,
         "reviews": 42180,
         "ratingAvg": 4.9,
@@ -103,7 +103,7 @@
         "title": "PhotoLab",
         "companyName": "PixelForge",
         "id": 4,
-        "description": "Professional photo editing with AI-powered filters and advanced retouching tools.",
+        "description": "PhotoLab brings professional-grade darkroom capabilities to your smartphone. Engineered for both hobbyists and professional photographers, it offers a sophisticated suite of AI-powered filters, advanced retouching tools, and RAW file support. Our 'SmartEnhance' technology automatically balances exposure, contrast, and saturation, while manual controls allow for granular adjustments of curves, HSL, and selective masking. Turn ordinary snapshots into breathtaking works of art with our unique light-leak effects and cinematic presets.",
         "size": 456,
         "reviews": 9870,
         "ratingAvg": 4.5,
@@ -136,7 +136,7 @@
         "title": "LangPal",
         "companyName": "LingoSoft",
         "id": 5,
-        "description": "Learn new languages through interactive lessons and native speaker conversations.",
+        "description": "Break down language barriers and connect with the world through LangPal. Our immersive curriculum goes beyond rote memorization, focusing on conversational fluency through interactive storytelling and speech-recognition technology. Connect with a global community of native speakers for real-time practice, and enjoy gamified lessons that make learning a new language feel like an adventure. Whether you're preparing for a business trip or exploring a new culture, LangPal provides the tools to speak confidently and understand deeply.",
         "size": 267,
         "reviews": 31250,
         "ratingAvg": 4.7,
@@ -169,7 +169,7 @@
         "title": "TripTribe",
         "companyName": "Wanderlust Apps",
         "id": 6,
-        "description": "Travel planning with curated itineraries and local recommendations worldwide.",
+        "description": "Stop dreaming and start exploring with TripTribe, the definitive travel planning app for the modern adventurer. We aggregate hidden gems and local favorites from every corner of the globe to help you build custom itineraries that bypass the tourist traps. Features include real-time flight tracking, budget management, and offline maps. Our community-driven 'Tribe Guides' provide up-to-the-minute recommendations on dining, lodging, and safety, ensuring your next journey is seamless, safe, and truly unforgettable.",
         "size": 198,
         "reviews": 18760,
         "ratingAvg": 4.4,
@@ -202,7 +202,7 @@
         "title": "RecipeRadar",
         "companyName": "Foodie Tech",
         "id": 7,
-        "description": "Discover recipes based on ingredients you have and dietary preferences.",
+        "description": "Banish the 'what's for dinner?' dilemma forever with RecipeRadar. Our intelligent pantry-first approach allows you to input the ingredients you already have on hand to find delicious, chef-curated recipes in seconds. Tailor your search with filters for keto, vegan, gluten-free, or 30-minute meals. Each recipe includes step-by-step video instructions, nutritional breakdowns, and an automated shopping list for the missing pieces. It’s the perfect kitchen assistant for reducing food waste and discovering your new favorite dishes.",
         "size": 145,
         "reviews": 25340,
         "ratingAvg": 4.6,
@@ -235,7 +235,7 @@
         "title": "GameHub",
         "companyName": "Arcade Interactive",
         "id": 8,
-        "description": "Curated collection of indie and premium mobile games with cloud saves.",
+        "description": "GameHub is the ultimate destination for mobile gamers, offering a hand-picked selection of the industry's best indie titles and premium blockbusters. Forget the clutter of the app store; our editors rigorously test every game for quality and performance. With integrated cloud saving, you can start a quest on your phone and finish it on your tablet without losing a beat. Join a thriving community of gamers to share tips, participate in exclusive tournaments, and earn rewards through our 'Quest-for-Coins' loyalty program.",
         "size": 523,
         "reviews": 67320,
         "ratingAvg": 4.3,
@@ -268,7 +268,7 @@
         "title": "CloudNote",
         "companyName": "Nimbus Labs",
         "id": 9,
-        "description": "Sync notes across all devices with rich text formatting and collaboration features.",
+        "description": "Capture inspiration the moment it strikes with CloudNote. This powerhouse of productivity allows you to organize your thoughts, projects, and lists with elegant rich-text formatting and seamless cross-device synchronization. Embed images, record voice memos directly into your notes, and collaborate with team members in real-time. Our advanced tagging system and full-text search mean you'll never lose an important piece of information again. It's the digital brain you’ve always wanted, kept safe with military-grade encryption.",
         "size": 78,
         "reviews": 43120,
         "ratingAvg": 4.8,
@@ -301,7 +301,7 @@
         "title": "MusicMuse",
         "companyName": "AudioStream",
         "id": 10,
-        "description": "Stream high-quality music and create personalized playlists with AI recommendations.",
+        "description": "Experience audio in its purest form with MusicMuse. Boasting a massive library of lossless audio tracks, MusicMuse uses sophisticated AI algorithms to learn your unique taste and curate 'Daily Muse' playlists that introduce you to your next favorite artist. Create shared playlists with friends, follow your favorite influencers' listening habits, and enjoy high-fidelity streaming even on low-bandwidth connections. With offline listening and seamless smart-home integration, your world is always filled with the perfect soundtrack.",
         "size": 234,
         "reviews": 84520,
         "ratingAvg": 4.7,
@@ -334,7 +334,7 @@
         "title": "TaskMaster",
         "companyName": "Productivity Pro",
         "id": 11,
-        "description": "Advanced task management with kanban boards, deadlines, and team collaboration.",
+        "description": "Master your workflow and crush your deadlines with TaskMaster. Designed for project managers and busy professionals, this app offers a robust Kanban-style interface that makes tracking complex projects a breeze. Assign tasks, set priority levels, and attach files directly from your cloud storage. With integrated time-tracking, recurring reminders, and detailed productivity reports, TaskMaster provides the oversight you need to manage your personal goals or lead a remote team to victory without ever feeling overwhelmed.",
         "size": 112,
         "reviews": 28740,
         "ratingAvg": 4.5,
@@ -367,7 +367,7 @@
         "title": "WeatherWise",
         "companyName": "ClimateSoft",
         "id": 12,
-        "description": "Hyper-local weather forecasts with radar maps and severe weather alerts.",
+        "description": "WeatherWise delivers the most accurate, hyper-local weather intelligence right to your palm. Using a proprietary network of thousands of weather stations, we provide 'down-to-the-minute' rain forecasts and high-resolution radar maps. Receive instant push notifications for severe weather alerts, UV index warnings, and air quality updates tailored to your exact GPS coordinates. Whether you're planning a weekend hike or just need to know if you should carry an umbrella, WeatherWise ensures you're never caught off guard by the elements.",
         "size": 167,
         "reviews": 15670,
         "ratingAvg": 4.6,
@@ -400,7 +400,7 @@
         "title": "StockSage",
         "companyName": "InvestEdge",
         "id": 13,
-        "description": "Real-time stock market data, portfolio tracking, and investment insights.",
+        "description": "Navigate the complexities of the global markets with StockSage. This professional-grade investment tool provides real-time price action, deep-dive technical analysis charts, and a curated news feed of market-moving events. Create multiple watchlists, set custom price alerts, and use our advanced portfolio simulator to test your strategies before committing real capital. From blue-chip stocks and ETFs to commodities and indices, StockSage empowers you with the data and insights needed to make informed financial decisions.",
         "size": 143,
         "reviews": 9340,
         "ratingAvg": 4.4,
@@ -433,7 +433,7 @@
         "title": "MediTrack",
         "companyName": "HealthWare",
         "id": 14,
-        "description": "Medication reminders, health records, and appointment scheduling in one app.",
+        "description": "MediTrack is your essential health management companion, designed to simplify your medical journey. Never miss a dose with our smart medication reminders that adjust based on your time zone. Store your entire medical history, including lab results and immunization records, in a secure, encrypted vault. The app also features an intuitive appointment scheduler and a pharmacy finder to help you manage your healthcare needs on the go. It’s the peace of mind you need to focus on what matters most—your recovery and long-term wellness.",
         "size": 95,
         "reviews": 12450,
         "ratingAvg": 4.8,
@@ -466,7 +466,7 @@
         "title": "SnapEdit",
         "companyName": "Creative Pixel",
         "id": 15,
-        "description": "Quick photo and video editing with filters, stickers, and text overlays.",
+        "description": "Elevate your social media presence with SnapEdit, the fastest and most intuitive photo and video editor on the market. Specifically built for creators on the move, SnapEdit offers a massive library of trending filters, animated stickers, and dynamic text overlays. With our one-tap background removal and auto-frame features, you can turn raw footage into viral-ready content in minutes. Whether you're crafting a quick Story or a detailed vlog, SnapEdit provides the creative tools to make your vision pop off the screen.",
         "size": 278,
         "reviews": 35980,
         "ratingAvg": 4.5,
@@ -499,7 +499,7 @@
         "title": "EcoLife",
         "companyName": "Green Future",
         "id": 16,
-        "description": "Track your carbon footprint and get sustainable living tips daily.",
+        "description": "Join the movement toward a more sustainable planet with EcoLife. Our app helps you understand your environmental impact by tracking your daily carbon footprint based on transportation, diet, and energy usage. Receive personalized, actionable tips for reducing waste and discover local eco-friendly businesses. Participate in global 'Green Challenges' with a community of like-minded individuals and earn digital badges as you hit sustainability milestones. With EcoLife, living a greener lifestyle isn't just a goal—it’s an achievable daily habit.",
         "size": 82,
         "reviews": 8760,
         "ratingAvg": 4.7,
@@ -532,7 +532,7 @@
         "title": "SocialSpark",
         "companyName": "ConnectHub",
         "id": 17,
-        "description": "Share moments with friends, discover trends, and join communities.",
+        "description": "SocialSpark is a next-generation social platform built on the principles of community and authentic connection. Share your life's best moments through high-definition photos and videos, and dive into 'Interest Hubs' where you can find people who share your specific passions—from amateur astrophotography to urban gardening. Our algorithm prioritizes meaningful engagement over endless scrolling, helping you discover trending topics and local events that actually matter to you. It’s not just about staying connected; it’s about finding where you belong.",
         "size": 345,
         "reviews": 123450,
         "ratingAvg": 4.2,
@@ -565,7 +565,7 @@
         "title": "CodeCademy Go",
         "companyName": "TechEd Labs",
         "id": 18,
-        "description": "Learn programming with interactive coding challenges and projects.",
+        "description": "Learn to code anytime, anywhere with CodeCademy Go. This mobile extension of our world-class curriculum allows you to practice your programming skills with interactive coding challenges and bite-sized projects. Covering languages like Python, JavaScript, HTML, and SQL, our lessons are designed to fit into your busy schedule. Review key concepts with digital flashcards and track your progress across the entire CodeCademy ecosystem. Whether you’re a complete beginner or a professional developer, CodeCademy Go keeps your skills sharp and your logic precise.",
         "size": 210,
         "reviews": 19280,
         "ratingAvg": 4.9,
@@ -598,7 +598,7 @@
         "title": "PetPal",
         "companyName": "Animal Apps",
         "id": 19,
-        "description": "Pet care tracker, vet reminders, and community for pet lovers.",
+        "description": "PetPal is the all-in-one management tool every pet parent needs to ensure their furry friends live a long, happy life. Track vaccinations, flea treatments, and vet appointments with ease, and receive automatic reminders when it's time for a checkup. Our integrated community allows you to connect with other pet owners for playdates or advice, and our 'PetPedia' database provides expert tips on nutrition and training. From golden retrievers to exotic reptiles, PetPal helps you stay organized and informed about your pet’s unique health and happiness.",
         "size": 118,
         "reviews": 14560,
         "ratingAvg": 4.8,
@@ -631,7 +631,7 @@
         "title": "SleepCycle",
         "companyName": "Restful Tech",
         "id": 20,
-        "description": "Smart alarm clock that analyzes sleep patterns and wakes you gently.",
+        "description": "Wake up feeling refreshed and energized with SleepCycle, the smart alarm clock that works with your body's natural rhythms. Using advanced sound analysis and accelerometer technology, SleepCycle monitors your sleep stages and wakes you during your lightest sleep phase within a pre-defined window. Detailed nightly reports visualize your sleep quality, snoring patterns, and heart rate, helping you identify what factors are affecting your rest. With a library of soothing sleep stories and white noise, SleepCycle ensures you fall asleep faster and wake up better.",
         "size": 134,
         "reviews": 38420,
         "ratingAvg": 4.7,
@@ -664,7 +664,7 @@
         "title": "InvestorIQ",
         "companyName": "WealthForge",
         "id": 21,
-        "description": "Crypto and stock portfolio management with real-time analytics.",
+        "description": "Simplify your financial world with InvestorIQ, the premier aggregator for modern investors. Monitor your stocks, bonds, and cryptocurrency holdings in a single, unified dashboard with real-time valuation updates. Our advanced analytics engine provides deep insights into your asset allocation, risk exposure, and performance against global benchmarks. Set custom alerts for market volatility and receive curated research reports from top financial analysts. Whether you're a long-term hodler or a day trader, InvestorIQ gives you the bird's-eye view needed to grow your wealth.",
         "size": 189,
         "reviews": 11230,
         "ratingAvg": 4.5,
@@ -697,7 +697,7 @@
         "title": "ArtFlow",
         "companyName": "Creative Canvas",
         "id": 22,
-        "description": "Digital drawing and painting app with realistic brushes and layers.",
+        "description": "ArtFlow transforms your tablet into a high-powered digital art studio, offering an unparalleled drawing and painting experience. Built for professional illustrators and aspiring artists alike, ArtFlow features over 100 customizable brushes, including oil, watercolor, and airbrushes that mimic real-world textures. Our high-performance engine supports canvases up to 6K with dozens of layers, blending modes, and mask options. With pressure-sensitive stylus support and an intuitive interface, ArtFlow provides the perfect environment for everything from quick sketches to gallery-ready masterpieces.",
         "size": 398,
         "reviews": 16780,
         "ratingAvg": 4.8,
@@ -730,7 +730,7 @@
         "title": "NewsWave",
         "companyName": "MediaStream",
         "id": 23,
-        "description": "Personalized news aggregator from trusted sources worldwide.",
+        "description": "Stay informed without the noise using NewsWave, your personalized gateway to the world's most trusted journalism. NewsWave aggregates stories from thousands of premium sources, using AI to learn your interests and filter out clickbait. Create custom 'News Channels' for topics like technology, global politics, or local sports, and save articles for offline reading later. With a focus on diverse perspectives and factual accuracy, NewsWave ensures you get a comprehensive view of the day's events, delivered in a beautiful, distraction-free reading environment.",
         "size": 156,
         "reviews": 23450,
         "ratingAvg": 4.4,
@@ -763,7 +763,7 @@
         "title": "DriveSafe",
         "companyName": "AutoTech",
         "id": 24,
-        "description": "Driving assistant with trip recording, mileage tracking, and safety alerts.",
+        "description": "DriveSafe is your intelligent co-pilot, designed to make every journey safer and more efficient. Using your smartphone's sensors, the app automatically logs your trips, tracks fuel efficiency, and provides real-time feedback on your driving habits to help you save on gas and maintenance. Features include a built-in dashcam mode, severe weather alerts along your route, and an emergency 'SOS' button that can share your location with contacts or first responders in the event of an accident. It’s the essential tool for commuters, road-trippers, and safety-conscious drivers everywhere.",
         "size": 176,
         "reviews": 9870,
         "ratingAvg": 4.6,
@@ -796,7 +796,7 @@
         "title": "PodcastHub",
         "companyName": "AudioVerse",
         "id": 25,
-        "description": "Discover and stream millions of podcasts with offline listening.",
+        "description": "Dive into the world of audio storytelling with PodcastHub, the most feature-rich podcast player on the market. Discover millions of shows across every genre imaginable—from true crime and tech to comedy and history. Our intelligent recommendation engine suggests new episodes based on your listening history, and our 'Smart Speed' feature trims silences without distorting voices. With cross-device syncing, offline downloads, and a sleep timer, PodcastHub makes it easy to enjoy your favorite creators whether you’re on your morning commute or winding down for the night.",
         "size": 123,
         "reviews": 42670,
         "ratingAvg": 4.7,
@@ -829,7 +829,7 @@
         "title": "HomeStyle",
         "companyName": "InteriorAI",
         "id": 26,
-        "description": "Interior design inspiration and AR preview for furniture placement.",
+        "description": "Visualize your dream home before you move a single piece of furniture with HomeStyle. Leveraging cutting-edge Augmented Reality (AR) technology, our app allows you to place virtual furniture and decor from top brands directly into your real-world rooms. Browse through thousands of interior design ideas curated by professional stylists, or use our 'ColorMatch' tool to see how different paint shades look in your lighting. From small apartment hacks to full-home renovations, HomeStyle provides the inspiration and technical tools to bring your interior vision to life.",
         "size": 287,
         "reviews": 8760,
         "ratingAvg": 4.5,
@@ -862,7 +862,7 @@
         "title": "BookWorm",
         "companyName": "Readify",
         "id": 27,
-        "description": "E-reader with thousands of free classics and personalized recommendations.",
+        "description": "Turn your smartphone or tablet into an expansive personal library with BookWorm. Our sophisticated e-reader offers access to over 50,000 free classics and a vast storefront of modern bestsellers. Customize your reading experience with adjustable fonts, margins, and night-mode settings designed to reduce eye strain. BookWorm also features an AI-powered recommendation engine that analyzes your reading pace and genre preferences to suggest your next favorite book. With built-in highlighting and note-taking tools, it’s the perfect app for both casual readers and serious students.",
         "size": 92,
         "reviews": 29650,
         "ratingAvg": 4.8,
@@ -895,7 +895,7 @@
         "title": "EventEase",
         "companyName": "PlanIt Labs",
         "id": 28,
-        "description": "Event planning, ticketing, and guest management made simple.",
+        "description": "EventEase simplifies the chaos of event coordination into a streamlined, stress-free process. Whether you're planning a corporate conference, a wedding, or a local meet-up, our app provides robust tools for ticketing, RSVP tracking, and guest communication. Create interactive seating charts, manage vendor contracts, and send real-time updates to your attendees. With integrated budget tracking and post-event analytics, EventEase ensures every detail is accounted for, allowing you to focus on hosting a successful and memorable occasion for your guests.",
         "size": 147,
         "reviews": 11340,
         "ratingAvg": 4.4,
@@ -928,7 +928,7 @@
         "title": "CreditKeeper",
         "companyName": "FinanceHub",
         "id": 29,
-        "description": "Monitor credit score, get identity theft alerts, and financial tips.",
+        "description": "Protect your financial identity and improve your creditworthiness with CreditKeeper. Get instant access to your credit score and receive real-time notifications for any changes or potential identity theft threats. Our app analyzes your credit profile to offer personalized tips on how to lower your interest rates and pay off debt faster. With educational resources on financial health and a secure vault for your important documents, CreditKeeper empowers you to take control of your financial reputation and unlock better opportunities for loans, mortgages, and more.",
         "size": 105,
         "reviews": 19320,
         "ratingAvg": 4.7,
@@ -961,7 +961,7 @@
         "title": "YogaFlow",
         "companyName": "MindBody Apps",
         "id": 30,
-        "description": "Yoga classes for all levels with video guidance and progress tracking.",
+        "description": "Find your inner balance and strength with YogaFlow, the ultimate guided yoga experience for all levels. From gentle stretching for beginners to advanced vinyasa flows, our library features high-quality video sessions led by world-class instructors. Track your progress with detailed analytics on your flexibility, strength, and mindfulness. YogaFlow also offers curated programs for specific goals like stress relief, better posture, or athletic performance. With the ability to download classes for offline use, you can practice your flow anywhere—at home, in the park, or while traveling.",
         "size": 201,
         "reviews": 16450,
         "ratingAvg": 4.9,
@@ -990,209 +990,11 @@
         ]
     },
     {
-        "image": "https://cdn-icons-png.flaticon.com/512/2917/2917991.png",
-        "title": "CoupleConnect",
-        "companyName": "Relationship Labs",
-        "id": 31,
-        "description": "Private app for couples to share memories, chat, and plan together.",
-        "size": 88,
-        "reviews": 28760,
-        "ratingAvg": 4.6,
-        "downloads": 1650000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 780
-            },
-            {
-                "name": "2 star",
-                "count": 650
-            },
-            {
-                "name": "3 star",
-                "count": 1540
-            },
-            {
-                "name": "4 star",
-                "count": 4570
-            },
-            {
-                "name": "5 star",
-                "count": 21220
-            }
-        ]
-    },
-    {
-        "image": "https://cdn-icons-png.flaticon.com/512/2942/2942749.png",
-        "title": "PlantParent",
-        "companyName": "GreenThumb",
-        "id": 32,
-        "description": "Plant care reminders, identification, and gardening tips.",
-        "size": 132,
-        "reviews": 12480,
-        "ratingAvg": 4.7,
-        "downloads": 780000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 340
-            },
-            {
-                "name": "2 star",
-                "count": 280
-            },
-            {
-                "name": "3 star",
-                "count": 710
-            },
-            {
-                "name": "4 star",
-                "count": 2140
-            },
-            {
-                "name": "5 star",
-                "count": 9010
-            }
-        ]
-    },
-    {
-        "image": "https://cdn-icons-png.flaticon.com/512/2936/2936881.png",
-        "title": "CalorieCounter",
-        "companyName": "NutriSoft",
-        "id": 33,
-        "description": "Food diary with barcode scanner and macro tracking.",
-        "size": 124,
-        "reviews": 35890,
-        "ratingAvg": 4.5,
-        "downloads": 2340000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 1180
-            },
-            {
-                "name": "2 star",
-                "count": 970
-            },
-            {
-                "name": "3 star",
-                "count": 2340
-            },
-            {
-                "name": "4 star",
-                "count": 6120
-            },
-            {
-                "name": "5 star",
-                "count": 25280
-            }
-        ]
-    },
-    {
-        "image": "https://cdn-icons-png.flaticon.com/512/2991/2991122.png",
-        "title": "CloudBackup",
-        "companyName": "SecureData",
-        "id": 34,
-        "description": "Automatic backup for photos, contacts, and documents with encryption.",
-        "size": 67,
-        "reviews": 21560,
-        "ratingAvg": 4.8,
-        "downloads": 1320000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 380
-            },
-            {
-                "name": "2 star",
-                "count": 290
-            },
-            {
-                "name": "3 star",
-                "count": 750
-            },
-            {
-                "name": "4 star",
-                "count": 3120
-            },
-            {
-                "name": "5 star",
-                "count": 17020
-            }
-        ]
-    },
-    {
-        "image": "https://cdn-icons-png.flaticon.com/512/3655/3655550.png",
-        "title": "KaraokeNow",
-        "companyName": "SingAlong",
-        "id": 35,
-        "description": "Sing your favorite songs with lyrics and voice effects.",
-        "size": 289,
-        "reviews": 9430,
-        "ratingAvg": 4.4,
-        "downloads": 510000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 510
-            },
-            {
-                "name": "2 star",
-                "count": 420
-            },
-            {
-                "name": "3 star",
-                "count": 1050
-            },
-            {
-                "name": "4 star",
-                "count": 1850
-            },
-            {
-                "name": "5 star",
-                "count": 5600
-            }
-        ]
-    },
-    {
-        "image": "https://cdn-icons-png.flaticon.com/512/1995/1995561.png",
-        "title": "MindMath",
-        "companyName": "EduTech",
-        "id": 36,
-        "description": "Math puzzles and brain training for all ages.",
-        "size": 96,
-        "reviews": 17640,
-        "ratingAvg": 4.7,
-        "downloads": 1080000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 430
-            },
-            {
-                "name": "2 star",
-                "count": 360
-            },
-            {
-                "name": "3 star",
-                "count": 890
-            },
-            {
-                "name": "4 star",
-                "count": 2980
-            },
-            {
-                "name": "5 star",
-                "count": 12980
-            }
-        ]
-    },
-    {
         "image": "https://cdn-icons-png.flaticon.com/512/2917/2917987.png",
         "title": "VolunteerMatch",
         "companyName": "Social Good",
         "id": 37,
-        "description": "Find local volunteer opportunities and track your impact.",
+        "description": "Make a tangible difference in your community with VolunteerMatch, the leading platform for connecting passionate individuals with non-profit organizations. Browse through thousands of local and remote volunteer opportunities based on your skills, interests, and availability. Track your hours, document your impact with photos, and share your experiences to inspire others. Whether you want to mentor students, help at an animal shelter, or contribute to environmental conservation, VolunteerMatch provides the network to help you find your purpose and give back effectively.",
         "size": 109,
         "reviews": 8430,
         "ratingAvg": 4.9,
@@ -1225,7 +1027,7 @@
         "title": "QR Reader Pro",
         "companyName": "ScanSoft",
         "id": 38,
-        "description": "Fast QR and barcode scanner with history and sharing features.",
+        "description": "Experience lightning-fast scanning with QR Reader Pro, the most reliable and versatile barcode and QR code utility. Optimized for speed and accuracy, even in low-light conditions, our app instantly decodes URLs, contact information, Wi-Fi credentials, and product data. Keep a detailed history of your scans for easy access later and generate your own custom QR codes for sharing websites or social media profiles. With built-in security features that warn you about malicious links, QR Reader Pro is the only scanning tool you’ll ever need for work or daily life.",
         "size": 45,
         "reviews": 45320,
         "ratingAvg": 4.6,
@@ -1258,7 +1060,7 @@
         "title": "SportsFan",
         "companyName": "ScoreStream",
         "id": 39,
-        "description": "Live scores, news, and highlights for all major sports.",
+        "description": "Never miss a buzzer-beater again with SportsFan, the ultimate real-time companion for every sports enthusiast. Get instant scores, detailed play-by-play commentary, and up-to-the-minute news for all major leagues, including NFL, NBA, MLB, Premier League, and more. Customize your feed to follow your favorite teams and athletes, and receive push notifications for game starts, scoring plays, and final results. With integrated video highlights and deep-dive statistical analysis, SportsFan keeps you at the center of the action no matter where you are.",
         "size": 178,
         "reviews": 28760,
         "ratingAvg": 4.5,
@@ -1291,7 +1093,7 @@
         "title": "Meditation Room",
         "companyName": "CalmTech",
         "id": 40,
-        "description": "Ambient sounds, guided breathing exercises, and stress relief tools.",
+        "description": "Escape the noise of the modern world and find your inner peace with Meditation Room. This app offers a curated selection of ambient soundscapes—from gentle rain and ocean waves to cosmic drones—designed to aid in deep relaxation and focus. Utilize our guided breathing timer to reduce stress in minutes, or explore specialized tools for improving sleep and managing workplace anxiety. With a minimalist, soothing interface, Meditation Room provides a portable sanctuary that helps you maintain mental clarity and emotional resilience throughout your day.",
         "size": 156,
         "reviews": 19870,
         "ratingAvg": 4.9,
@@ -1324,7 +1126,7 @@
         "title": "ParkFinder",
         "companyName": "Outdoor Apps",
         "id": 41,
-        "description": "Discover national parks, hiking trails, and camping spots.",
+        "description": "Reconnect with nature using ParkFinder, your comprehensive guide to the great outdoors. Discover national parks, hidden hiking trails, and the best camping spots near you or across the country. Our app provides detailed trail maps, current weather conditions, and essential safety tips for every location. Filter your search by difficulty level, pet-friendliness, or specific features like waterfalls and scenic overlooks. With offline map access and a community of fellow explorers sharing photos and reviews, ParkFinder is the perfect companion for your next weekend adventure or cross-country road trip.",
         "size": 134,
         "reviews": 11230,
         "ratingAvg": 4.7,
