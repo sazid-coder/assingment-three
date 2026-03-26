@@ -16,6 +16,7 @@ export const router = createBrowserRouter([
         children: [
             {
                 index: true,
+                path: '/',
                 loader: async () => {
                     const res = await fetch('/data.json');
                     return res.json();
@@ -23,7 +24,7 @@ export const router = createBrowserRouter([
                 Component: Home,
             },
             {
-                path: "apps",
+                path: "/apps",
                 loader: async () => {
                     const res = await fetch('/data.json');
                     return res.json();

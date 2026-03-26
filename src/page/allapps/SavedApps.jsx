@@ -1,22 +1,38 @@
 import React, { useState } from "react";
 import { useLoaderData } from "react-router";
 import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const SavedApps = () => {
 
     const data = useLoaderData();
 
+    // 🔥 state for installed ids
     const [storedIds, setStoredIds] = useState(
         JSON.parse(localStorage.getItem("appIds")) || []
     );
 
+    // 🔥 sort state
+    const [sortType, setSortType] = useState("");
+
+    // filter installed apps
     const savedApps = data.filter(app => storedIds.includes(app.id));
 
+    // 🔥 sorting logic
+    const sortedApps = [...savedApps].sort((a, b) =>
+        sortType === "size" ? a.size - b.size :
+            sortType === "rating" ? b.ratingAvg - a.ratingAvg :
+                sortType === "downloads" ? b.downloads - a.downloads : 0
+    );
+
+    // uninstall function (short + clean)
     const handleRemove = (id) => {
-        const updated = storedIds.filter(item => item !== id);
-        localStorage.setItem("appIds", JSON.stringify(updated));
-        setStoredIds(updated);
-        toast.error("App Uninstalled ❌");
+        setStoredIds(prev => {
+            const updated = prev.filter(item => item !== id);
+            localStorage.setItem("appIds", JSON.stringify(updated));
+            toast.error("App Uninstalled ❌");
+            return updated;
+        });
     };
 
     return (
@@ -35,18 +51,25 @@ const SavedApps = () => {
             {/* Top Bar */}
             <div className="flex justify-between items-center mb-6">
                 <h3 className="text-xl font-semibold text-gray-800">
-                    {savedApps.length} Apps Found
+                    {sortedApps.length} Apps Found
                 </h3>
 
-                <button className="bg-white border px-4 py-2 rounded-lg text-gray-600 shadow-sm hover:shadow">
-                    Sort By Size ▾
-                </button>
+                {/* 🔥 Sort Dropdown */}
+                <select
+                    onChange={(e) => setSortType(e.target.value)}
+                    className="bg-white border px-4 py-2 rounded-lg text-gray-600 shadow-sm"
+                >
+                    <option value="">Sort By</option>
+                    <option value="size">Size</option>
+                    <option value="rating">Rating</option>
+                    <option value="downloads">Downloads</option>
+                </select>
             </div>
 
             {/* Cards */}
             <div className="space-y-5">
                 {
-                    savedApps.map(app => (
+                    sortedApps.map(app => (
                         <div
                             key={app.id}
                             className="flex items-center justify-between bg-white px-5 py-4 rounded-xl shadow-sm hover:shadow-md transition"
@@ -57,7 +80,7 @@ const SavedApps = () => {
 
                                 {/* Image */}
                                 <div className="w-16 h-16 bg-gray-200 rounded-xl p-2">
-                                    <img src={app.image} alt="" />
+                                    <img src={app.image} alt="" className="w-full h-full object-cover rounded-md" />
                                 </div>
 
                                 {/* Info */}
@@ -68,11 +91,11 @@ const SavedApps = () => {
 
                                     <div className="flex items-center gap-5 text-sm mt-1">
 
-                                        <span className="flex items-center gap-1 text-green-600 font-medium">
+                                        <span className="text-green-600 font-medium">
                                             ⬇ {app.downloads}
                                         </span>
 
-                                        <span className="flex items-center gap-1 text-orange-500 font-medium">
+                                        <span className="text-orange-500 font-medium">
                                             ⭐ {app.ratingAvg}
                                         </span>
 
@@ -99,13 +122,16 @@ const SavedApps = () => {
 
             {/* Empty */}
             {
-                savedApps.length === 0 && (
+                sortedApps.length === 0 && (
                     <p className="text-center text-gray-500 mt-10">
                         No apps installed yet 😢
                     </p>
                 )
             }
-            <ToastContainer />
+
+            {/* Toast */}
+            <ToastContainer position="top-right" autoClose={2000} theme="colored" />
+
         </div>
     );
 };
